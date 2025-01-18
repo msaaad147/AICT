@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Auto Bazar</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <img src="./img/logo.png" alt="">
+            <ul class="navbar">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="Cars.html">Cars</a></li>
+                <li> <a href="Contact us.html" class="active">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="contact-us">
+        <h2>CONTACT US</h2>
+        <form action="submit_form.php" method="POST" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <img src="./img/logo.png" alt="">
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.instagram.com/autos._bazar?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Page</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="Cars.html">Cars</a>
+                <a href="Contact us.html">Contact Us</a>
+            </div>
+
+            <div class="footer-box">
+                <h3>Legal</h3>
+                <a href="#">Privacy</a>
+                <a href="#">Refund Policy</a>
+                <a href="#">Cookies Policy</a>
+            </div>
+
+            <div class="footer-box">
+                <h3>Contact</h3>
+               <p>United States</p>
+               <p>Canada</p>
+               <p> Jaban</p>
+               <p>Germany</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <div class="copyright">
+        <p>&#169; Muhammad Saad All Right Reserved</p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+</body>
+</html>
